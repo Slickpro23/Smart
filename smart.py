@@ -21,6 +21,7 @@ print("Доступные листы:")
 for sheet in worksheets:
     print(sheet.title)
 
+
 # Выбираем лист "Настройки"
 settings_sheet = spreadsheet_smart.worksheet('Настройки')
 # Выбираем лист "База"
